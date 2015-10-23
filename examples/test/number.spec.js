@@ -6,7 +6,7 @@ semantia.testCase(number.double, {
     arguments: {
         0: {
             type: 'number',
-            order: 1,
+            order: 10,
             signed: true
         }
     },
