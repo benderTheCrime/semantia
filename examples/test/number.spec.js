@@ -10,6 +10,6 @@ semantia.testCase(number.double, {
             signed: true
         }
     },
-    calls: 100,
+    callCount: 100,
     expected: '2 * {{arguments[ 0 ]}'
 });
