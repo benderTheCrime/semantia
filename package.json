@@ -1,0 +1,23 @@
+{
+  "name": "semantia",
+  "version": "0.0.1",
+  "description": "A State-Based Test Runner",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/benderTheCrime/semantia.git"
+  },
+  "keywords": [
+    "test",
+    "unit"
+  ],
+  "author": "Joe Groseclose <@benderTheCrime>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/benderTheCrime/semantia/issues"
+  },
+  "homepage": "https://github.com/benderTheCrime/semantia"
+}
