@@ -5,9 +5,12 @@
 // TODO check to see that the most up to date version is installed
 global.SEMANTIA_VERSION = '0.0.1';
 
-// TODO use yargs to build the help menu
-var args =  require('yargs').argv;
-
 require('babel-core/register');
 
-var Runner = new require('../lib/index').default(args._);
+// TODO use yargs to build the help menu
+var args =      require('yargs').argv,
+    Runner =    require('../lib/index').Runner;
+
+console.log('ARGS', args);
+
+var runner = new Runner(args._);
