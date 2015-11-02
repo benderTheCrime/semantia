@@ -8,8 +8,6 @@ global.SEMANTIA_VERSION = '0.0.1';
 // TODO use yargs to build the help menu
 var args =  require('yargs').argv;
 
-require('babel-core/register')({
-    presets: [ 'stage-0' ]
-});
+require('babel-core/register');
 
-var Runner = new require('../dist/lib/index').default(args._);
+var Runner = new require('../lib/index').default(args._);
