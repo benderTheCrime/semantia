@@ -20,7 +20,6 @@ semantia.testCase(string.upper, {
 }).testCase(string.lower, {
     arguments: [
         {
-            name: 'string',
             value: 'test'
         }
     ],
